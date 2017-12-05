@@ -4,6 +4,8 @@
 
 ### **Description**
 
+![tetriminos](img/tetriminos.svg)
+
 **Tetriminox** is a tiny shell script written from scratch at **42** with the purpose
 of creating a valid unit test for the **Fillit** project.
 
