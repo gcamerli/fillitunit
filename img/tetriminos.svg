@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Tiling of a 5x8 square using tetrominoes.-->
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" id="Tetromino_Tiling_5x8" width="90" height="60" sodipodi:version="0.32" inkscape:version="0.46" sodipodi:docname="All free tetrominoes.svg" inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <metadata id="metadata30">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs id="defs28">
+    <inkscape:perspective sodipodi:type="inkscape:persp3d" inkscape:vp_x="0 : 30 : 1" inkscape:vp_y="0 : 1000 : 0" inkscape:vp_z="90 : 30 : 1" inkscape:persp3d-origin="45 : 20 : 1" id="perspective32"/>
+  </defs>
+  <sodipodi:namedview inkscape:window-height="1027" inkscape:window-width="1920" inkscape:pageshadow="2" inkscape:pageopacity="0.0" guidetolerance="10.0" gridtolerance="10.0" objecttolerance="10.0" borderopacity="1.0" bordercolor="#666666" pagecolor="#ffffff" id="base" showgrid="false" inkscape:zoom="8.5481353" inkscape:cx="100.1803" inkscape:cy="20.87667" inkscape:window-x="-8" inkscape:window-y="-8" inkscape:current-layer="Tetromino_Tiling_5x8"/>
+  <g id="g3244">
+    <path d="M 5,4 L 45,4 L 45,14 L 5,14 L 5,4 z" id="path11" style="fill:#44ffff;fill-opacity:1;stroke:#000000;stroke-width:1"/>
+    <path sodipodi:nodetypes="ccccc" style="fill:none;stroke:#000000;stroke-width:0.30000001" id="path3187" d="M 15.000443,4.0004407 L 15.000443,14 L 25.00043,14 L 25.00022,4.0004407 L 15,3.9999997"/>
+    <path sodipodi:nodetypes="ccccc" style="fill:none;stroke:#000000;stroke-width:0.30000001" id="path3191" d="M 35.000443,4.0004407 L 35.000443,14 L 45.00043,14 L 45.00022,4.0004407 L 35,3.9999997"/>
+  </g>
+  <g id="g3197">
+    <path d="M 65,3.9999994 L 85,3.9999994 L 85,24 L 65,24 L 65,3.9999994 z" id="path15" style="fill:#ffff44;fill-opacity:1;stroke:#000000;stroke-width:1"/>
+    <path sodipodi:nodetypes="ccccc" style="fill:none;stroke:#000000;stroke-width:0.30000001" id="path3193" d="M 65.00044,4.0004408 L 65.00044,14 L 75.00043,14 L 75.00022,4.0004408 L 65,3.9999998"/>
+    <path sodipodi:nodetypes="ccccc" style="fill:none;stroke:#000000;stroke-width:0.30000001" id="path3195" d="M 75.000443,14.000441 L 75.000443,24 L 85.00043,24 L 85.00022,14.000441 L 75,14"/>
+  </g>
+  <g id="g3230">
+    <path d="M 5,25 L 15,25 L 15,45 L 24.999999,45 L 24.999999,55 L 5,55 L 5,25 z" id="path7" style="fill:#ff8800;fill-opacity:1;stroke:#000000;stroke-width:1"/>
+    <path sodipodi:nodetypes="ccccc" style="fill:none;stroke:#000000;stroke-width:0.30000001" id="path3222" d="M 5.000443,25.000441 L 5.000443,35 L 15.00043,35 L 15.00022,25.000441 L 5,25"/>
+    <path sodipodi:nodetypes="ccccc" style="fill:none;stroke:#000000;stroke-width:0.30000001" id="path3224" d="M 5.000443,45.000441 L 5.000443,55 L 15.00043,55 L 15.00022,45.000441 L 5,45"/>
+  </g>
+  <g id="g3239">
+    <path d="M 30,25 L 40,25 L 40,35 L 50,35 L 50,55 L 40,55 L 40,45 L 30,45 L 30,25 z" id="path9" style="fill:#44ff44;fill-opacity:1;stroke:#000000;stroke-width:1"/>
+    <path sodipodi:nodetypes="ccccc" style="fill:none;stroke:#000000;stroke-width:0.30000001" id="path3226" d="M 30.000443,35.000441 L 30.000443,45 L 40.00043,45 L 40.00022,35.000441 L 30,35"/>
+    <path sodipodi:nodetypes="ccccc" style="fill:none;stroke:#000000;stroke-width:0.30000001" id="path3228" d="M 40.000443,45.000441 L 40.000443,55 L 50.00043,55 L 50.00022,45.000441 L 40,45"/>
+  </g>
+  <g id="g3235">
+    <path d="M 55,35 L 85,35 L 85,45 L 75,45 L 75,55 L 65,55 L 65,45 L 55,45 L 55,35 z" id="path13" style="fill:#ff44ff;fill-opacity:1;stroke:#000000;stroke-width:1"/>
+    <path sodipodi:nodetypes="ccccc" style="fill:none;stroke:#000000;stroke-width:0.30000001" id="path3" d="M 65.000443,35.000441 L 65.000443,45 L 75.00043,45 L 75.00022,35.000441 L 65,35"/>
+  </g>
+</svg>
