@@ -17,7 +17,7 @@ BLUE='\033[0;34m'
 NC='\033[0;m'
 
 # Title
-TITLE=$BLUE"⚒️ TETRIMINOX [FILLIT UNIT TEST] ⚒️"$NC
+TITLE=$BLUE"⚒️  TETRIMINOX [FILLIT UNIT TEST] ⚒️"$NC
 
 # Menu prompts
 ft_prompt_1=$GREEN"[1]"$NC" Check rules"			;
@@ -54,6 +54,8 @@ ft_opt_1 () {
 
 ft_opt_2 () {
 	echo "\n$GREEN[2]$NC Check relink:\n"
+	make re
+	echo $NC
 	make
 	echo $NC
 	read -n 1 -s -r -p "Press any key to continue"
@@ -61,6 +63,8 @@ ft_opt_2 () {
 
 ft_opt_3 () {
 	echo "\n$GREEN[3]$NC Check usage:\n"
+	make re
+	echo $NC
 	echo "0 arguments:"$RED
 	./fillit
 	echo $NC"\n2 arguments:"$RED
@@ -87,15 +91,15 @@ ft_opt_4 () {
 ft_opt_5 () {
 	echo $NC
  	make fclean
-	echo $NC"\n$GREEN< $NC----------------------------- $RED [QUIT] $TITLE ----------------------------- $GREEN>$NC"
-	sleep 3 ; clear
+	echo $NC"\n$GREEN< $NC-----------------------------$RED [QUIT] $TITLE  ----------------------------- $GREEN>$NC"
+	sleep 2 ; clear
 	break
 }
 
 # Menu display
 ft_menu() {
 clear
-echo $NC"$GREEN< $NC----------------------------- $GREEN [START] $TITLE ----------------------------- $GREEN>$NC"
+echo $NC"$GREEN< $NC-----------------------------$GREEN [START] $TITLE  ----------------------------- $GREEN>$NC"
 echo
 echo
 echo $BLUE`date`
