@@ -75,7 +75,8 @@ ft_opt_4 () {
 	echo
 	while read -r -e LINE; do
 		echo $NC
-		make
+		make re
+		echo $NC
 		time ./fillit $LINE
 		break
 	done
