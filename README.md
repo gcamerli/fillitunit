@@ -11,19 +11,19 @@ of creating a valid unit test for the **Fillit** project.
 
 ### **Usage**
 
-To set **Tetriminox** just edit the $FILLIT path inside `set.sh` and run:
+To set **Tetriminox** just edit the `$FILLIT` path inside `set.sh` and run:
 
 ```bash
 $ ./set.sh
 ``` 
 
-To execute **Tetriminox** inside your $FILLIT repo just execute:
+To execute **Tetriminox** inside your `$FILLIT` repo just execute:
 
 ```bash
 $ ./tetriminox.sh
 ```
 
-Enjoy your time.
+Enjoy it.
 
 ### **Note**
 
