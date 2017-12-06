@@ -28,7 +28,7 @@ ft_prompt_5=$GREEN"[5]"$NC" Exit"					;
 
 # Numbers
 MIN=$GREEN"1"$NC
-MAX=$GREEN"6"$NC
+MAX=$GREEN"5"$NC
 
 # Error message
 ft_error () {
@@ -75,6 +75,7 @@ ft_opt_4 () {
 	echo
 	while read -r -e LINE; do
 		echo $NC
+		make
 		time ./fillit $LINE
 		break
 	done
@@ -83,9 +84,10 @@ ft_opt_4 () {
 }
 
 ft_opt_5 () {
-  make fclean
+	echo $NC
+ 	make fclean
 	echo $NC"\n$GREEN< $NC----------------------------- $RED [QUIT] $TITLE ----------------------------- $GREEN>$NC"
-	sleep 2 ; clear
+	sleep 3 ; clear
 	break
 }
 
