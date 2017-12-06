@@ -23,6 +23,8 @@ To execute **Tetriminox** inside your `$FILLIT` repo just execute:
 $ ./tetriminox.sh
 ```
 
+![tetriminox](img/tty.gif)
+
 Enjoy it.
 
 ### **Note**
