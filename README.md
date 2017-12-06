@@ -14,7 +14,7 @@ of creating a valid unit test for the **Fillit** project.
 Copy `tetriminox.sh` and `input` dir inside your fillit repo and execute:
 
 ```bash
-./tetriminox.sh
+$ ./tetriminox.sh
 ```
 
 ### **Note**
