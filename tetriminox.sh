@@ -20,6 +20,7 @@ NC='\033[0;m'
 TITLE=$BLUE"⚒️  TETRIMINOX [FILLIT UNIT TEST] ⚒️"$NC
 
 # Menu prompts
+ft_prompt_0=$GREEN"[0]"$NC" Check norme"			;
 ft_prompt_1=$GREEN"[1]"$NC" Check rules"			;
 ft_prompt_2=$GREEN"[2]"$NC" Check relink"			;
 ft_prompt_3=$GREEN"[3]"$NC" Check usage"			;
@@ -27,8 +28,16 @@ ft_prompt_4=$GREEN"[4]"$NC" Check input file"		;
 ft_prompt_5=$GREEN"[5]"$NC" Exit"					;
 
 # Numbers
-MIN=$GREEN"1"$NC
+MIN=$GREEN"0"$NC
 MAX=$GREEN"5"$NC
+
+# Functions
+FT=ft*
+LIBFT=libft/ft*
+
+# Headers
+FILH=fillit.h
+LIBH=libft/libft.h
 
 # Error message
 ft_error () {
@@ -36,6 +45,14 @@ ft_error () {
 }
 
 # Menu options
+ft_opt_0 () {
+	echo "\n$GREEN[0]$NC Check norme:\n"
+	norminette -R CheckForbiddenSourceHeader $FT $LIBFT
+	norminette -R CheckForbiddenSourceHeader $FILH $LIBH
+	echo $NC
+	read -n 1 -s -r -p "Press any key to continue"
+}
+
 ft_opt_1 () {
 	echo "\n$GREEN[1]$NC Check rules:\n"
 	echo "$GREEN[1.1]$NC make:\n"
@@ -105,6 +122,7 @@ echo
 echo $BLUE`date`
 echo
 echo
+echo "\t" $ft_prompt_0
 echo "\t" $ft_prompt_1
 echo "\t" $ft_prompt_2
 echo "\t" $ft_prompt_3
@@ -128,6 +146,7 @@ do
 	MSG=
 
 	case $INPUT in
+		0) ft_opt_0;;
 		1) ft_opt_1;;
 		2) ft_opt_2;;
 		3) ft_opt_3;;
