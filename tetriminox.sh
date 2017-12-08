@@ -39,6 +39,10 @@ LIBFT=libft/*.c
 FILH=*.h
 LIBH=libft/*.h
 
+# Input
+VALID=input/valid/*
+ERROR=input/error/*
+
 # Error message
 ft_error () {
 	MSG="$RED[Error]$NC Invalid option. Enter a number between $MIN and $MAX"
@@ -92,16 +96,44 @@ ft_opt_3 () {
 
 ft_opt_4 () {
 	echo "\n$GREEN[4]$NC Check input file:\n"
-	echo "Choose one [$GREEN file $NC] writing the correct path: [$BLUE Ex. input/valid/valid_00 $NC]"
-	echo
+	echo "Choose one $BLUE[set]$NC of input files between:\n$BLUE"
+	ls input
+	echo $NC
 	while read -r -e LINE; do
-		echo $NC
-		make re
-		echo $NC
-		time ./fillit $LINE
+		if [ $LINE == "valid" ]
+		then
+			echo
+			i=0
+			make re
+			echo $NC
+			for n in $VALID; do
+				echo "Valid test $GREEN[$i]$NC:\n"
+				echo "$BLUE[Input]$NC\n"
+				cat $n
+				echo "\n$BLUE[Output]$NC\n"
+				time ./fillit $n
+				(( i++ ))
+				echo $NC
+			done
+		fi
+		if [ $LINE == "error" ]
+		then
+			echo
+			i=0
+			make re
+			echo $NC
+			for n in $ERROR; do
+				echo "Error test $RED[$i]$NC:\n"
+				echo "$BLUE[Input]$NC\n"
+				cat $n
+				echo "\n$BLUE[Output]$NC\n"
+				time ./fillit $n
+				(( i++ ))
+				echo $NC
+			done
+		fi
 		break
 	done
-	echo $NC
 	read -n 1 -s -r -p "Press any key to continue"
 }
 
