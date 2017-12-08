@@ -32,12 +32,12 @@ MIN=$GREEN"0"$NC
 MAX=$GREEN"5"$NC
 
 # Functions
-FT=ft*
-LIBFT=libft/ft*
+FT=*.c
+LIBFT=libft/*.c
 
 # Headers
-FILH=fillit.h
-LIBH=libft/libft.h
+FILH=*.h
+LIBH=libft/*.h
 
 # Error message
 ft_error () {
