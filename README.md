@@ -15,7 +15,7 @@ To set **Tetriminox** just edit the `$FILLIT` path inside `set.sh` and run:
 
 ```bash
 $ ./set.sh
-``` 
+```
 
 To execute **Tetriminox** inside your `$FILLIT` repo just execute:
 
@@ -33,4 +33,4 @@ If you need to test it under **Linux** distros, it's better to edit all the `ech
 
 ### **License**
 
-This work is licensed under the terms of the **[Beer-ware License](https://fedoraproject.org/wiki/Licensing/Beerware)**.
+This work is published under the terms of **[42 Unlicense](https://github.com/gcamerli/42unlicense)**.
